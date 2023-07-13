@@ -9,12 +9,12 @@ const Footer = () => {
           we offer a wide range of frames, lenses, and contact lenses for sale, along with professional services. Don't forget to get your power checked for precise vision correction and personalized recommendations.  
           </p>
         </div>
-        <div>
+        <div >
           <h4 className="text-lg font-bold mb-2">Contact Us</h4>
-          <p className="text-sm md:text-base">
-            Email: info@example.com<br />
-            Phone: +91-6369684049<br />
-            Address: ramalinga nagar 2nd street virugambakkam
+          <p className="text-sm text-left">
+            Email: cbeprabhuopticals@gmail.com<br />
+            Phone: +91-9500478961<br />
+            Address:Koundampalayam,Coimbatore,TN-641030
           </p>
         </div>
       </div>

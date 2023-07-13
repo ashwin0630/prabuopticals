@@ -16,13 +16,13 @@ const About = () => {
         <div className='flex flex-col xl:flex-row gap-24'>
           <img src={image} alt="img" className='object-cover h-full w-[400px] pl-5  md:mx-auto lg:mx-0 rounded-2xl' />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
-            <div className="flex flex-col text-white">
+            <div className="flex  flex-col text-white">
               <h2 className='text-3xl pt-5 pb-5  lg:text-4xl font-medium lg:font-extrabold'>About us</h2>
-              <div className='w-[120px]  md:w-[120px] rounded-2xl h-[10px] bg-indigo-600 mb-4 md:mb-5 mx-auto md:mx-0'></div>
-              <p className='text-white text-md mb-6 font-bold mr-15 text-center  '><GiRoundStar size={30} className='inline mr-2 pb-1' />Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis eos, dolorum est tempore ab, tenetur laudantium itaque consectetur iste, deserunt pariatur at minus illo maxime modi rerum. Fugiat, officia.</p>
-              <p className='text-white text-md mb-6 font-bold mr-15 text-center '><GiRoundStar size={30} className='inline mr-2 pb-1' />Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis eos, dolorum est tempore ab, tenetur laudantium itaque consectetur iste, deserunt pariatur at minus illo maxime modi rerum. Fugiat, officia.</p>
-              <p className='text-white text-md mb-6 font-bold mr-15 text-center  '><GiRoundStar size={30} className='inline mr-2 pb-1' />Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis eos, dolorum est tempore ab, tenetur laudantium itaque consectetur iste, deserunt pariatur at minus illo maxime modi rerum. Fugiat, officia.</p>
-              <p className='text-white text-md mb-6 font-bold mr-15 text-center '><GiRoundStar size={30} className='inline mr-2 pb-1' />Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis eos, dolorum est tempore ab, tenetur laudantium itaque consectetur iste, deserunt pariatur at minus illo maxime modi rerum. Fugiat, officia.</p>
+              <div className='w-[120px] items-end  md:w-[120px] rounded-2xl h-[10px] bg-indigo-600 mb-4 md:mb-12 mx-auto md:mx-0'></div>
+              <p className='text-white text-md mb-10 font-bold mr-15 '><GiRoundStar color='blue' size={30} className='inline mr-2 pb-1' />Since 1976, we have been your trusted optical shop, offering comprehensive vision services tailored to your needs.</p>
+              <p className='text-white text-md mb-10 font-bold mr-15  '><GiRoundStar color='blue' size={30} className='inline mr-2 pb-1' />Get your power checked and discover a wide range of optical solutions at our conveniently located store.</p>
+              <p className='text-white text-md mb-10 font-bold mr-15 '><GiRoundStar color='blue' size={30} className='inline mr-2 pb-1' />Our experienced team of opticians and optometrists is committed to delivering exceptional care for your vision.</p>
+              <p className='text-white text-md mb-10 font-bold mr-15'><GiRoundStar size={30} color='blue' className='inline mr-2 pb-1' />We are open from 10 am to 9 pm on weekdays, ensuring flexible hours to accommodate your busy schedule. Please note that we are closed on Sundays to provide our staff with a well-deserved break.</p>
              </div>
           </div>
         </div>
