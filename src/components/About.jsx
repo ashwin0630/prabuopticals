@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import image from '../assets/image.jpg';
+import image from '../assets/img.jpg';
 import { GiRoundStar } from 'react-icons/gi';
 import {IoMdContacts} from 'react-icons/io'
 import {MdOutlineReviews} from 'react-icons/md'
